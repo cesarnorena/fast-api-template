@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fast-api-template"
+version = "0.1.0"
+description = "Basic Fast API template"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.95.2"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
